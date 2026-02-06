@@ -1,6 +1,6 @@
-numpy
-pandas
-scikit-learn
-matplotlib
-lightgbm
-openpyxl
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+lightgbm>=3.3.0
+openpyxl>=3.0.0

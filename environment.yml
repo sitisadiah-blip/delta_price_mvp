@@ -84,4 +84,4 @@ dependencies:
   - zlib-ng=2.3.3
   - zstd=1.5.7
 
-prefix: "/Users/schenberg/miniforge3/envs/price_mvp"
+

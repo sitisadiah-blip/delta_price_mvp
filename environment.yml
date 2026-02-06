@@ -1,0 +1,14 @@
+name: price_mvp
+channels:
+  - conda-forge  # 优先使用 conda-forge，这里的 lightgbm 对 Mac M4 支持最好
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.23
+  - pandas>=1.5
+  - scikit-learn>=1.2
+  - matplotlib>=3.7
+  - lightgbm>=3.3    # M4 Mac 兼容性最好
+  - pip
+  - pip:
+    - openpyxl>=3.9  # 读取 Excel 必备（仅通过 pip 安装）

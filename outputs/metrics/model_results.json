@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Ridge",
+    "MAE": 0.3547939250203924,
+    "RMSE": 0.4765000235606651,
+    "R2": 0.7568608420056955,
+    "n": 11888,
+    "target_transform": "winsorize(1%,99%)+log1p"
+  },
+  {
+    "model": "HistGBDT(sklearn)",
+    "MAE": 0.2506737356320424,
+    "RMSE": 0.35482514063434545,
+    "R2": 0.8651789135303284,
+    "n": 11888,
+    "target_transform": "winsorize(1%,99%)+log1p"
+  }
+]
